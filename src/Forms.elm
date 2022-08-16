@@ -11,7 +11,7 @@ import Html.Events exposing (onInput)
 
 
 main : Program () Model Msg
-main =
+in =
     Browser.sandbox { init = init, update = update, view = view }
 
 
